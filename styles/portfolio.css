@@ -71,6 +71,10 @@ nav a{
         margin-bottom: 20px;
     }
     /* main styles  */
+    main{
+        width: 1140px;
+        margin: 0 auto;
+    }
 
     /* about section style */
     .about{
@@ -92,3 +96,13 @@ nav a{
         text-align: center;
         font-size: 18px;
     }
+ .about-info-container{
+    display: flex;
+    justify-content: space-between;
+ } 
+ .about-info{
+    text-align: center;
+ }
+#what-i-do-description{
+    padding: 30px 150px;
+}
