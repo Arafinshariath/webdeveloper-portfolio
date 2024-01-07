@@ -59,7 +59,7 @@ nav a{
     .profile{
         width: 500px;
         align-items: right;
-        image position: right: ;
+        
     }
     .greeting{
         font-size: 25px;
@@ -106,3 +106,23 @@ nav a{
 #what-i-do-description{
     padding: 30px 150px;
 }
+.skills-container{
+    display: flex;
+    gap: 20px;
+}
+.skill{
+    padding: 35px;
+    border-radius: 5px;
+    background: whitesmoke;
+    box-shadow: cornsilk;
+  
+}
+.skill-description{
+    color: black;
+}
+.resume-colum-title{
+    color: rosybrown;
+    font-size: 40px;
+     font-weight: 800;
+}
+     
