@@ -85,9 +85,10 @@ nav a{
     }
     .sectiion-title{
         color: #131111;
-        text-align: center;
+        
         font-size: 35px;
         font-weight: 700;
+        text-align: center;
         
     
     }
@@ -125,4 +126,29 @@ nav a{
     font-size: 40px;
      font-weight: 800;
 }
-     
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-title{
+    color: coral;
+    font-size:20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.resume-item-description,.resume-item-institute{
+    color: hsl(33, 92%, 25%)
+}
+.resume-container hr{
+    margin: 30px 30px;
+
+    
+}
+.download-CV{
+    text-align: center;
+    margin-top: 50px;
+}
